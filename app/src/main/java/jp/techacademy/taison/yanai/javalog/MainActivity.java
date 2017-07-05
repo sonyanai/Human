@@ -29,6 +29,9 @@ public class MainActivity extends AppCompatActivity {
         int num4 = 20;
         Log.d("javatest","num3 < num4 = " + String.valueOf(num3 < num4));
 
+        num = 90;
+        Log.d("javatest",String.valueOf(num));
+
         String str = "aaa" + "bbb";
         Log.d("javatest",String.valueOf(str));
 
