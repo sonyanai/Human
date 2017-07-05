@@ -11,21 +11,15 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        int num = 10;
-        Log.d("javatest", String.valueOf(num));       //numの表示
-
-        num = 50;
-        Log.d("javatest", String.valueOf(num));        //javatestで引っ張られる値です
-
-        num = 10000;
-        Log.d("javatest", String.valueOf(num));
-
-        num = 90;
-        Log.d("javatest",String.valueOf(num));
-
-        String str = "aaa" + "bbb";
-        Log.d("javatest",String.valueOf(str));
-
-        Log.d("javatest","ログへの出力テスト");     //ログへの出力テストというテキストの表示
+        int num = 60;
+        if(num >= 90){
+            Log.d("javatest", "A");       //numの表示
+        }else if (num >= 75){
+            Log.d("javatest", "B");        //javatestで引っ張られる値です
+        }else if(num >= 60){
+            Log.d("javatest", "C");
+        }else{
+            Log.d("javatest","D");
+        }
     }
 }
