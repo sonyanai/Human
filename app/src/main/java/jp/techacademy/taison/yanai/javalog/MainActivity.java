@@ -17,18 +17,6 @@ public class MainActivity extends AppCompatActivity {
         num = 50;
         Log.d("javatest", String.valueOf(num));        //javatestで引っ張られる値です
 
-        int num2 = 10 + 5 - 2 * 4 / 2;
-        Log.d("javatest","10 + 5 - 2 * 4 / 2 = " + String.valueOf(num2));
-
-        boolean flag1 = true;
-        boolean flag2 = false;
-        Log.d("javatest","flag1 && flag2 = " + String.valueOf(flag1 && flag2));
-        Log.d("javatest","flag1 || flag2 = " + String.valueOf(flag1 || flag2));
-
-        int num3 = 10;
-        int num4 = 20;
-        Log.d("javatest","num3 < num4 = " + String.valueOf(num3 < num4));
-
         num = 90;
         Log.d("javatest",String.valueOf(num));
 
