@@ -12,6 +12,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         int num = 60;
+
         if(num >= 90){
             Log.d("javatest", "AAAA");       //numの表示
         }else if (num >= 75){
@@ -19,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
         }else if(num >= 60){
             Log.d("javatest", "CCCC");
         }else{
-            Log.d("javatest","DDDD");
+            Log.d("javatest", "DDDD");
         }
     }
 }
