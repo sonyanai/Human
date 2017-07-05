@@ -12,10 +12,10 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         int num = 10;
-        /*Log.d("javatest", String.valueOf(num));       //numの表示
+        Log.d("javatest", String.valueOf(num));       //numの表示
 
         num = 50;
-        Log.d("javatest", String.valueOf(num));        //javatestで引っ張られる値ですよ*/
+        Log.d("javatest", String.valueOf(num));        //javatestで引っ張られる値です
 
         int num2 = 10 + 5 - 2 * 4 / 2;
         Log.d("javatest","10 + 5 - 2 * 4 / 2 = " + String.valueOf(num2));
