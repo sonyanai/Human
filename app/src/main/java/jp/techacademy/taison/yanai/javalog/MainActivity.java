@@ -17,6 +17,9 @@ public class MainActivity extends AppCompatActivity {
         num = 50;
         Log.d("javatest", String.valueOf(num));        //javatestで引っ張られる値です
 
+        num = 10000;
+        Log.d("javatest", String.valueOf(num));
+
         num = 90;
         Log.d("javatest",String.valueOf(num));
 
