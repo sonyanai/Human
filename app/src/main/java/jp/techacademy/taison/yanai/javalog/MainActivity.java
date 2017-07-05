@@ -8,19 +8,25 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        int num = 60;
+        int drink = 1;
 
-        if(num >= 90){
-            Log.d("javatest", "AAAA");       //numの表示
-        }else if (num >= 75){
-            Log.d("javatest", "BBBB");        //javatestで引っ張られる値です
-        }else if(num >= 60){
-            Log.d("javatest", "CCCC");
-        }else{
-            Log.d("javatest", "DDDD");
+        switch (drink) {
+            case 0:
+                Log.d("javatest", "aaaa");
+                break;
+            case 1:
+                Log.d("javatest", "bbbb");
+                break;
+            case 2:
+                Log.d("javatest", "cccc");
+                break;
+            default:
+                Log.d("javatest", "dddd");
+                break;
         }
     }
 }
