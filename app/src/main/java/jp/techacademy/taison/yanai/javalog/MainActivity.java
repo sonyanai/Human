@@ -11,8 +11,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        /*int num = 10;
-        Log.d("javatest", String.valueOf(num));       //numの表示
+        int num = 10;
+        /*Log.d("javatest", String.valueOf(num));       //numの表示
 
         num = 50;
         Log.d("javatest", String.valueOf(num));        //javatestで引っ張られる値ですよ*/
