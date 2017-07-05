@@ -13,13 +13,13 @@ public class MainActivity extends AppCompatActivity {
 
         int num = 60;
         if(num >= 90){
-            Log.d("javatest", "A");       //numの表示
+            Log.d("javatest", "AAAA");       //numの表示
         }else if (num >= 75){
-            Log.d("javatest", "B");        //javatestで引っ張られる値です
+            Log.d("javatest", "BBBB");        //javatestで引っ張られる値です
         }else if(num >= 60){
-            Log.d("javatest", "C");
+            Log.d("javatest", "CCCC");
         }else{
-            Log.d("javatest","D");
+            Log.d("javatest","DDDD");
         }
     }
 }
