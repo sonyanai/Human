@@ -29,7 +29,8 @@ public class MainActivity extends AppCompatActivity {
         int num4 = 20;
         Log.d("javatest","num3 < num4 = " + String.valueOf(num3 < num4));
 
-        String str = ("aaa" + "bbb");
+        String str = "aaa" + "bbb";
+        Log.d("javatest",String.valueOf(str));
 
         Log.d("javatest","ログへの出力テスト");     //ログへの出力テストというテキストの表示
     }
