@@ -12,15 +12,12 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-            Dog dog = new Dog("ポチ" , 3);
+        Dog dog = new Dog("ポチ" , 3);
+        dog.say();
+        Log.d("javatest", "犬の名前は" + dog.name + "です");
+        Log.d("javatest", "犬の年齢は" + dog.age + "歳です");
 
-            dog.say();
-            Log.d("javatest", "犬の名前は" + dog.name + "です");
-            Log.d("javatest", "犬の年齢は" + dog.age + "歳です");
-
-            Dog dog2 = new Dog("ハチ" , 10);
-            dog2.say();
-            Log.d("javatest", "犬の名前は" + dog2.name + "です");
-            Log.d("javatest", "犬の年齢は" + dog2.age + "歳です");
+        Dog.introduce();
+        Log.d("javatest",Dog.to_jp + "の変数です");
         }
     }
