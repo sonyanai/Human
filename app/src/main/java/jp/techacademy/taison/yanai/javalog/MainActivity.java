@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
                 Log.d("javatest", "aaaa");
                 break;
             case 1:
-                Log.d("javatest", "bbbb");
+                Log.d("javatest", "aaaa");
                 break;
             case 2:
                 Log.d("javatest", "cccc");
