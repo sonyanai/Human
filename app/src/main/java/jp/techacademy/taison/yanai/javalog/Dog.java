@@ -10,9 +10,9 @@ class Dog {
     String name;
     int age;
 
-    public Dog() {
-        name = "";
-        age = 0;
+    public Dog(String name,int age) {
+        this.name = name;
+        this.age = age;
     }
     public void say(){
         Log.d("javatest",this.name + "(" +this.age+ "歳)" + "「ワンワン」");
