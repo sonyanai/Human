@@ -22,9 +22,5 @@ public class MainActivity extends AppCompatActivity {
         bigdog.say();
         Log.d("javatest", "犬の名前は" + bigdog.name + "です");
         Log.d("javatest", "犬の年齢は" + bigdog.age + "歳です");
-
-
-        Dog.introduce();
-        Log.d("javatest",Dog.to_jp + "の変数です");
         }
     }
