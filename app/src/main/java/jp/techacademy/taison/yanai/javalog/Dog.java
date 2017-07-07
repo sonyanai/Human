@@ -15,7 +15,7 @@ class Dog {
         age = 0;
     }
     public void say(){
-        Log.d("javatest",this.name+"("+this.age+"歳)"+"「ワンワン」");
+        Log.d("javatest",this.name + "(" +this.age+ "歳)" + "「ワンワン」");
     }
 
 }
