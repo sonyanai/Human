@@ -6,6 +6,10 @@ import android.util.Log;
  */
 
 class Human extends Animal {
+    public Human(String name,int age) {
+        this.name = name;
+        this.age = age;
+    }
     public void say(){
         Log.d("javatest","私の名前は"+this.name + "です。年は" +this.age+ "歳です。" );
     }

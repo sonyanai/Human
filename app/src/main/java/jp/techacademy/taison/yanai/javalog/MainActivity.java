@@ -11,10 +11,7 @@ public class MainActivity extends AppCompatActivity {
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-        Dog dog = new Dog("ポチ", 3);
-
-        dog.move();
-
+        Human human = new Human("矢内泰尊",20);
+        human.say();
     }
 }
