@@ -13,6 +13,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         Dog dog = new Dog("ポチ", 3);
+
         dog.move();
 
     }
