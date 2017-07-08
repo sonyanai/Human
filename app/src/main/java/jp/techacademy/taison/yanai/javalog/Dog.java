@@ -5,11 +5,9 @@ package jp.techacademy.taison.yanai.javalog;
  */
 import android.util.Log;
 
-class Dog {
+class Dog extends Animal {
     static String to_jp ="犬";
 
-    String name;
-    int age;
 
     public Dog(String name,int age) {
         this.name = name;
