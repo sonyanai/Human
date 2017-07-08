@@ -13,6 +13,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         Dog dog = new Dog("ポチ" , 3);
+        dog.move();
         dog.say();
         Log.d("javatest", "犬の名前は" + dog.name + "です");
         Log.d("javatest", "犬の年齢は" + dog.age + "歳です");
@@ -20,6 +21,7 @@ public class MainActivity extends AppCompatActivity {
         BigDog bigdog = new BigDog("太郎",15);
 
         bigdog.say();
+        bigdog.move();
         Log.d("javatest", "犬の名前は" + bigdog.name + "です");
         Log.d("javatest", "犬の年齢は" + bigdog.age + "歳です");
         }
