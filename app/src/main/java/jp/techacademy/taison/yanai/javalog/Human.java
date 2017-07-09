@@ -6,9 +6,10 @@ import android.util.Log;
  */
 
 class Human extends Animal implements Thinkable {
-    public Human(String name , int age) {
+    public Human(String name , int age , String think) {
         this.name = name;
         this.age = age;
+        this.think = think;
     }
     public void say() {
         Log.d( "javatest" , "私の名前は" + this.name + "です。年は" + this.age + "歳です。" );
