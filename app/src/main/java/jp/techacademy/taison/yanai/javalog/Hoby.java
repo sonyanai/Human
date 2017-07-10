@@ -5,7 +5,7 @@ package jp.techacademy.taison.yanai.javalog;
  */
 
 abstract class Hoby {
-    public String hoby ="aaa";
+    public String hoby ="aaaa";
 
     abstract public void think();
 }
