@@ -7,7 +7,7 @@ import android.util.Log;
 
 class Human extends Animal implements Thinkable {
     //public String hobby =new String("趣味");
-    public String hobby =new String("");
+    public String hobby =new String(this.hobby);
     public Human(String hobby){
         this.hobby = hobby;
     }
@@ -22,6 +22,6 @@ class Human extends Animal implements Thinkable {
     }
     @Override
     public void think() {
-        Log.d( "javatest" , "私yxxyは" + this.hobby + "について考える" );
+        Log.d( "javatest" , "私yは" + this.hobby + "について考える" );
     }
 }
