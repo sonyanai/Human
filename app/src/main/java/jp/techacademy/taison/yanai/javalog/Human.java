@@ -6,7 +6,7 @@ import android.util.Log;
  */
 
 class Human extends Animal implements Thinkable {
-    private String hobby;
+    public String hobby;
 
     public Human(String name , int age) {
         this.name = name;

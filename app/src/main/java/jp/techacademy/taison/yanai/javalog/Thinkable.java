@@ -5,5 +5,5 @@ package jp.techacademy.taison.yanai.javalog;
  */
 
 public interface Thinkable {
-    public void think();
+    void think();
 }
