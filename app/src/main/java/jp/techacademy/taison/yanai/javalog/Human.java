@@ -22,6 +22,6 @@ class Human extends Animal implements Thinkable {
     }
     @Override
     public void think() {
-        Log.d( "javatest" , "私yyは" + hobby + "について考える" );
+        Log.d( "javatest" , "私yxyは" + hobby + "について考える" );
     }
 }
