@@ -7,21 +7,19 @@ import android.util.Log;
 
 class Human extends Animal implements Thinkable {
     //public String hobby =new String("趣味");
-    public String hobby =new String("");
-    public Human(String hobby){
-        this.hobby = hobby;
-    }
 
 
-    public Human(String name , int age) {
+
+    public Human(String name , int age ,String hobby) {
         this.name = name;
         this.age = age;
+        this.hobby = hobby;
     }
     public void say() {
         Log.d( "javatest" , "私の名前は" + this.name + "です。年は" + this.age + "歳です。" );
     }
     @Override
     public void think() {
-        Log.d( "javatest" , "私yは" + this.hobby + "について考える" );
+        Log.d( "javatest" , "私nは" + this.hobby + "について考える" );
     }
 }
